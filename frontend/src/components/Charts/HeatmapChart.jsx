@@ -1,0 +1,3 @@
+import React, { useEffect, useRef } from "react";
+import * as d3 from "d3";
+export default function HeatmapChart({data}){const ref=useRef(null);useEffect(()=>{if(!ref.current)return;const svg=d3.select(ref.current);svg.selectAll("*").remove();const w=500,h=250;svg.attr("viewBox",`0 0 ${w} ${h}`);const cellW=20,cellH=20;data.slice(0,100).forEach((d,i)=>{svg.append("rect").attr("x",(i%20)*cellW).attr("y",Math.floor(i/20)*cellH).attr("width",cellW-2).attr("height",cellH-2).attr("fill",d.value>0?"#1A56DB":"#E02424");});},[data]);return <div className="card"><svg ref={ref} className="w-full h-64"/></div>}

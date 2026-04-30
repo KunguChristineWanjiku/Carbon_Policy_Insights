@@ -1,0 +1,43 @@
+{
+  "best_model": "ffnn",
+  "statistical_tests": [
+    {
+      "baseline": "random_forest",
+      "best": "ffnn",
+      "paired_t_p": 0.02438143902041045,
+      "wilcoxon_p": 1.8523368477932312e-28
+    },
+    {
+      "baseline": "xgboost",
+      "best": "ffnn",
+      "paired_t_p": 0.0,
+      "wilcoxon_p": 1.3854015906129643e-23
+    },
+    {
+      "baseline": "lightgbm",
+      "best": "ffnn",
+      "paired_t_p": 0.02438143902041045,
+      "wilcoxon_p": 1.8523368477932312e-28
+    },
+    {
+      "baseline": "catboost",
+      "best": "ffnn",
+      "paired_t_p": 0.02438143902041045,
+      "wilcoxon_p": 1.8523368477932312e-28
+    },
+    {
+      "baseline": "ensemble",
+      "best": "ffnn",
+      "paired_t_p": 0.0020852007737157336,
+      "wilcoxon_p": 2.4146871871245633e-13
+    }
+  ],
+  "directional_bias_top_decile_price": {
+    "random_forest": -0.006586801729342382,
+    "xgboost": -0.002231805309422756,
+    "lightgbm": -0.006586801729342382,
+    "catboost": -0.006586801729342382,
+    "ensemble": -0.004844803161374531,
+    "ffnn": -1.834104534862268
+  }
+}

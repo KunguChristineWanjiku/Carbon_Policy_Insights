@@ -1,0 +1,32 @@
+[
+  {
+    "sample_pct": 10,
+    "rows": 358,
+    "feature_construction_sec": 0.011441699999977573,
+    "inference_sec": 0.14113449999967997
+  },
+  {
+    "sample_pct": 25,
+    "rows": 895,
+    "feature_construction_sec": 0.011074600000029022,
+    "inference_sec": 0.17660360000036235
+  },
+  {
+    "sample_pct": 50,
+    "rows": 1790,
+    "feature_construction_sec": 0.013506100000086008,
+    "inference_sec": 0.27877570000009655
+  },
+  {
+    "sample_pct": 75,
+    "rows": 2685,
+    "feature_construction_sec": 0.011009300000296207,
+    "inference_sec": 0.33269350000000486
+  },
+  {
+    "sample_pct": 100,
+    "rows": 3581,
+    "feature_construction_sec": 0.02195879999999306,
+    "inference_sec": 0.49345590000029915
+  }
+]
