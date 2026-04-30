@@ -1,0 +1,13 @@
+﻿# Christine Wanjiku Kungu | B01806008 | MSc IT with Data Analytics | UWS | Feb 2026
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python startup.py"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[[services]]
+name = "carbon-dss-api"
