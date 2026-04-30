@@ -8,7 +8,6 @@
 | File | Purpose |
 |---|---|
 | `notebook.ipynb` | Colab preprocessing pipeline: merge, clean, feature engineering, SHAP pre-analysis |
-| `pipeline.py` | Core ML training, evaluation, XAI explainability (SHAP, LIME, Claude API narrative) |
 | `app.py` | Flask REST API for predictions, explainability, scenario simulation, dashboard data |
 | `frontend/` | React + Vite interactive dashboard (6 tabs) |
 | `requirements.txt` | Pinned Python dependencies |
@@ -66,7 +65,6 @@ railway login
 railway up
 ```
 3. Set environment variables in Railway dashboard:
-   - `CLAUDE_API_KEY`
    - `MODEL_DIR=models`
    - `DATA_PATH=data/master_dataset_engineered.csv`
    - `PORT=8000`
