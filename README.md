@@ -1,4 +1,16 @@
-﻿# Christine Wanjiku Kungu | B01806008 | MSc IT with Data Analytics | UWS | Feb 2026
+## Copyright Notice
+
+© 2026 Christine Wanjiku Kungu. All rights reserved.
+
+This project was developed as my MSc dissertation for the degree of
+Information Technology with Data Analytics at the University of the
+West of Scotland. It is shared publicly for portfolio and demonstration
+purposes only. Please do not reproduce, redistribute, or submit this
+work as your own without written permission.
+
+**Contact:** christinekungu23@gmail.com
+
+# Christine Wanjiku Kungu | B01806008 | MSc IT with Data Analytics | UWS | Feb 2026
 
 # An Explainable AI-Driven Decision Support System with Interactive Dashboard for Evaluating Carbon Pricing Policies in the Energy Sector
 
